@@ -1,0 +1,54 @@
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 4rem;
+    margin: 5%;
+    color: red;
+}
+
+
+/*play button*/
+:root {
+    --button-height: 2rem;
+    --button-color: #edd;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000030;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fake-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    heigth: 4rem;
+    padding: 2rem;
+    border: 0.2rem solid var(--button-color);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 3.1rem rgba(255,255,255, 0.8));
+}
+
+.play {
+    height: 0;
+    width: 0;
+    margin-left: calc(2 * 0.14 * var(--button-height));
+    /*margin-left: 17px;*/
+    background: none;
+    border: none;
+    border-top: var(--button-height) solid transparent;
+    border-bottom: var(--button-height) solid transparent;
+    border-left: calc(var(--button-height) * 2 * 0.86) solid var(--button-color);
+    
+}

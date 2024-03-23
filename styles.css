@@ -1,0 +1,45 @@
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+#title{
+    font-family: 'Rampart One', cursive;
+    font-size: 4rem;
+    margin: 5%;
+    color: red;
+    
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid whitesmoke;
+    border-radius: 20%;
+}
+
+.green{
+    background-color:green;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
